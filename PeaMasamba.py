@@ -6,7 +6,7 @@ api_id = 19181985
 api_hash = "a2b23ca3a1c9b5dab4bf42dda7de4e79"
 
 try:
-   os.remove("peamasamba.session")
+   os.remove("masamba.session")
 except:
      pass
 with Client("peamasamba", api_id=api_id, api_hash=api_hash) as app:
@@ -20,5 +20,5 @@ with Client("peamasamba", api_id=api_id, api_hash=api_hash) as app:
     except:
         pass
     print(f"✅ String Session Has 🌟 Been Sent\nTo Your 🔥 Saved Message ✨ ...")
-    os.remove("peamasamba.session")
+    os.remove("masamba.session")
 
